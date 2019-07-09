@@ -36,7 +36,8 @@ app.listen('4000',()=>{
     console.log("el servidor esta en el  puerto 4000");
     /*para que twilio puedo enviarnos el mensaje tiene que enviarnoslo atrves de un ruta no 
     en un localhost para esto lo que haremos es simular que nuestra aplicacione sta en un servidor en la 
-    nueb y eso lo haremos con ngrock */
+    nueb y eso lo haremos con ngrock descargarlo y luego ejecutarlo en una nueva consolo con el comendo 
+    -- > mgrok http 4000 <-- */
 })
 
 
